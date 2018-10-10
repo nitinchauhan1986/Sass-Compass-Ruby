@@ -1,38 +1,43 @@
-/* line 72, toolbar/*.png */
-.toolbar-sprite, .toolbar-icons8, .toolbar-joomla, .toolbar-learning, .toolbar-moodle, .joomla .toolbar-joomla {
-  background-image: url('/images/toolbar-s7a1ce14a5d.png');
+/* line 80, toolbar/*.png */
+.toolbar-sprite, .toolbar-icons8, .toolbar-joomla, .toolbar-learning, .toolbar-moodle, .toolbar-new, .anyclass .toolbar-moodle {
+  background-image: url('/images/toolbar-s18859b80fb.png');
   background-repeat: no-repeat;
 }
 
-/* line 84, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .toolbar-icons8 {
   background-position: 0 0;
-  height: 48px;
-  width: 48px;
 }
 
-/* line 84, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .toolbar-joomla {
   background-position: 0 -48px;
+}
+
+/* line 84, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.toolbar-learning {
+  background-position: 0 -96px;
+}
+
+/* line 84, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.toolbar-moodle {
+  background-position: 0 -160px;
+}
+
+/* line 84, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.toolbar-new {
+  background-position: 0 -224px;
+}
+
+/* line 7, ../stylesheet/mixin.scss */
+.joomla {
+  background-image: url('/images/toolbar-s628408e3d9.png');
+  background-position: -48px -192px;
   height: 48px;
   width: 48px;
 }
 
-/* line 84, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.toolbar-learning {
-  background-position: 0 -96px;
-  height: 64px;
-  width: 64px;
-}
-
-/* line 84, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.toolbar-moodle {
+/* line 84, ../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.anyclass .toolbar-moodle {
   background-position: 0 -160px;
-  height: 64px;
-  width: 64px;
-}
-
-/* line 84, ../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.joomla .toolbar-joomla {
-  background-position: 0 -48px;
 }
